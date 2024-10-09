@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#user-form {
+    margin-bottom: 20px;
+}
+
+#points-system {
+    margin-bottom: 20px;
+}
+
+#rewards-section {
+    display: none;
+    margin-top: 20px;
+}
+
+.reward-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reward-item span {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#redeem-button {
+    display: none;
+    background-color: #28a745;
+}
+
+#redeem-button:hover {
+    background-color: #218838;
+}
